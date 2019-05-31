@@ -153,12 +153,12 @@ int main(void) {
 	pushStudent(&studentH, 4, "Jane", "Sea");
 	insertStudent(studentH->next->next, 5, "Jane", "Sea");
 	ListStudent(&studentH);
-	puts("================");
+	puts("=================");
 	deleteStudent(&studentH, 4);
 	appendClasses(&studentH, 1, "Biology", "Winter 2019", "AA");
 	appendClasses(&studentH, 1, "Math", "Spring 2018", "BA");
 	ListStudent(&studentH);
-	puts("================");
+	puts("=================");
 	ListStudentClasses(&studentH);
 	return EXIT_SUCCESS;
 }
